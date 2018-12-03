@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v2.27.0+rev2
+## (2018-12-03)
+
+* Switch to kernel 4.18.14 [Florin Sarbu]
+* Add kernel 4.18.14 [Florin Sarbu]
+
 # v2.27.0+rev1
 ## (2018-11-26)
 

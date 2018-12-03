@@ -1,4 +1,29 @@
 - commits:
+    - subject: Switch to kernel 4.18.14
+      hash: 51fce65c6bdad92827ac9897dfb791a134136159
+      body: |
+        We switch to using kernel version 4.18.14
+      footer:
+        Changelog-entry: Switch to kernel 4.18.14
+        changelog-entry: Switch to kernel 4.18.14
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+    - subject: Add kernel 4.18.14
+      hash: 6c345b0fbac4386b67f293cf3dae2cc878f7cab7
+      body: |
+        This recipe is taken from poky version thud-20.0.0:
+        https://git.yoctoproject.org/cgit/cgit.cgi/poky/tree/meta/
+        recipes-kernel/linux?h=thud-20.0.0
+      footer:
+        Changelog-entry: Add kernel 4.18.14
+        changelog-entry: Add kernel 4.18.14
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.27.0+rev2
+  date: 2018-12-03T09:00:44.841Z
+- commits:
     - subject: Update meta-resin from v2.26.0 to v2.27.0
       hash: 3bda391d20e8f5d2e904137d189d07216a809b43
       body: |
